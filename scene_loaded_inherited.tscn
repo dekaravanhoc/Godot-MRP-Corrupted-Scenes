@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://mo171p7sb2tg"]
+
+[ext_resource type="PackedScene" uid="uid://b2tv48y2gvixf" path="res://scene_loaded.tscn" id="1_d8vnj"]
+
+[node name="SceneLoadedInherited" instance=ExtResource("1_d8vnj")]

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf26e2q6iqrew"]
+
+[ext_resource type="Script" path="res://scene_export_loader.gd" id="1_w02jg"]
+[ext_resource type="PackedScene" uid="uid://b2tv48y2gvixf" path="res://scene_loaded.tscn" id="2_oydkn"]
+
+[node name="SceneExportLoader" type="Node"]
+script = ExtResource("1_w02jg")
+Scene = ExtResource("2_oydkn")
